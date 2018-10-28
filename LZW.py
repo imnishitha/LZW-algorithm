@@ -1,3 +1,5 @@
+'''Code to implement compression and decompression, along with finding the entropy and efficiency of the algorithm.'''
+
 from math import *
 def encodeLzw( input_string ):
 	for char in input_string:
